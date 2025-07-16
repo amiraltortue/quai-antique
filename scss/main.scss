@@ -35,7 +35,9 @@ p{
     background-size: cover;
     filter: brightness(0.3);
     }
+
     *{
+        //POSITITIONNER LES  ELEMENTS DEVANT LE ::before
         position:relative;
     }
 
@@ -47,4 +49,9 @@ align-items: center;
 justify-content: center;
 
     }
+
+    .text-justify{
+        text-align: justify;
+    }
+    
 }

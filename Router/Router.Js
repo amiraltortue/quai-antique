@@ -1,5 +1,5 @@
 import Route from "./Route.js";
-import { allRoutes, websiteName } from "./allRoutes.js";
+import { allRoutes, websitename } from "./allRoutes.js";
 
 // Création d'une route pour la page 404 (page introuvable)
 const route404 = new Route("404", "Page introuvable", "/pages/404.html");
@@ -9,7 +9,7 @@ const getRouteByUrl = (url) => {
   let currentRoute = null;
   // Parcours de toutes les routes pour trouver la correspondance
   allRoutes.forEach((element) => {
-    if (element.url == url) {
+    if (element.url == url) { 
       currentRoute = element;
     }
   });
