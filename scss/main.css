@@ -12030,6 +12030,7 @@ p {
 .image-card {
   position: relative;
 }
+.image-card:hover .action-image-buttons,
 .image-card:hover .titre-image {
   opacity: 1;
 }
@@ -12046,6 +12047,18 @@ p {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s;
+}
+.image-card .action-image-buttons {
+  opacity: 0;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  justify-content: space-between;
 }
 
 .form-label {
